@@ -279,4 +279,11 @@ body{
         margin-bottom: 20px;
         background-color: white;
     }
+
+    .s-card img {
+        width: 100%;
+        height: 8em;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
 }
