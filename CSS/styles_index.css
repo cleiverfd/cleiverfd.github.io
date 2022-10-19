@@ -233,6 +233,7 @@ body{
 
     .main {
         padding: 0;
+        margin: 0;
     }
 
     .slider {
@@ -257,8 +258,25 @@ body{
 }
 
 @media screen and (max-width: 600px) {
+
+    .buscador {
+        margin-left: 4em;
+        margin-top: -23em;
+        width: 75%;
+        padding: 1em 0 2em 0;
+    }
+
     .slider {
         padding-top: 8em;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .s-card {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        width: 10em;
+        height: 18em;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background-color: white;
     }
 }
