@@ -255,3 +255,12 @@ body{
         border-top-right-radius: 10px;
     }*/
 }
+
+@media screen and (max-width: 600px) {
+    .slider {
+        padding-top: 8em;
+        margin-left: -20px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
