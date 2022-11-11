@@ -5,92 +5,70 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/CSS/styles_index.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <title>Tiendas Delgado</title>
 </head>
 
 <body>
-    <div id="wrapwrap">
-        <header id="top" data-anchor="true" data-name="Header" class="header">
-            <nav data-name="Navbar" class="navbar">
-                <div id="top_menu_container" class="container">
-                    <a href="/" class="navbar-brand logo">Logo Tienda</a>
-                    <a href="" class="login">Iniciar Sesion</a>
+    <header class="header">
+        <nav class="navbar">
+            <a href="/index.html" class="navbar-logo">Tiendas Delgado</a>
+            <a href="/login.html" class="navbar-login">Iniciar Sesion</a>
+        </nav>
+    </header>
+    <main>
+        <div class="search">
+            <form action="" class="form">
+                <input type="text" class="search-input" placeholder="Buscar">
+                <button class="search-button">Buscar</button>
+            </form>
+        </div>
+        <div class="content">
+            <div class="content-card">
+                <div class="image">
+                    <img src="/Images/aceite_capri.jpg" alt="">
                 </div>
-            </nav>
-        </header>
-        <main>
-            <div class="search">
-                <form action="" class="form">
-                    <input type="text" class="search-input" placeholder="Buscar">
-                    <button class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                      </svg></button>
-                </form>
-            </div>
-            <div class="content">
-                <div class="content-card">
-                    <div class="image">
-                        <img src="/Images/aceite_capri.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <p class="title">Aceite</p>
-                        <p class="precio">S/ 12,00</p>
-                    </div>
-                </div>
-                <div class="content-card">
-                    <div class="image">
-                        <img src="/Images/atun.jfif" alt="">
-                    </div>
-                    <div class="text">
-                        <p class="title">Atun</p>
-                        <p class="precio">$/ 3,50</p>
-                    </div>
-                </div>
-                <div class="content-card">
-                    <div class="image">
-                        <img src="/Images/aceite_capri.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <p class="title">Aceite</p>
-                        <p class="precio">S/ 12,00</p>
-                    </div>
-                </div>
-                <div class="content-card">
-                    <div class="image">
-                        <img src="/Images/atun.jfif" alt="">
-                    </div>
-                    <div class="text">
-                        <p class="title">Atun</p>
-                        <p class="precio">$/ 3,50</p>
-                    </div>
-                </div>
-                <div class="content-card">
-                    <div class="image">
-                        <img src="/Images/aceite_capri.jpg" alt="">
-                    </div>
-                    <div class="text">
-                        <p class="title">Aceite</p>
-                        <p class="precio">S/ 12,00</p>
-                    </div>
-                </div>
-                <div class="content-card">
-                    <div class="image">
-                        <img src="/Images/atun.jfif" alt="">
-                    </div>
-                    <div class="text">
-                        <p class="title">Atun</p>
-                        <p class="precio">$/ 3,50</p>
-                    </div>
+                <div class="text">
+                    <p class="title">Aceite Capri - 1 Litro</p>
+                    <p class="precio"><span class="precio-unidad">S/ 12</span><span class="precio-decimal"> . 00</span></p>
                 </div>
             </div>
-        </main>
-        <footer id="bottom" data-anchor="true" data-name="Footer" class="footer">
-            <div class="footer-content">
-                <p class="dev">Desarrollado por SystemasInc</p>
-                <p class="derechos">Todos los derechos reservados</p>
+            <div class="content-card">
+                <div class="image">
+                    <img src="/Images/atun.jfif" alt="">
+                </div>
+                <div class="text">
+                    <p class="title">Atun Gloria</p>
+                    <p class="precio"><span class="precio-unidad">S/ 3</span><span class="precio-decimal"> . 50</span></p>
+                </div>
             </div>
-        </footer>
-    </div>
+            <div class="content-card">
+                <div class="image">
+                    <img src="/Images/aceite_capri.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p class="title">Aceite Capri - 1 Litro</p>
+                    <p class="precio"><span class="precio-unidad">S/ 12</span><span class="precio-decimal"> . 00</span></p>
+                </div>
+            </div>
+            <div class="content-card">
+                <div class="image">
+                    <img src="/Images/atun.jfif" alt="">
+                </div>
+                <div class="text">
+                    <p class="title">Atun Gloria</p>
+                    <p class="precio"><span class="precio-unidad">S/ 3</span><span class="precio-decimal"> . 50</span></p>
+                </div>
+            </div>
+           
+        </div>
+    </main>
+    <footer id="bottom" data-anchor="true" data-name="Footer" class="footer">
+        <div class="footer-content">
+            <p class="dev">Desarrollado por SystemasInc</p>
+            <p class="derechos">Todos los derechos reservados</p>
+        </div>
+    </footer>
 
 </body>
 
