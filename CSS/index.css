@@ -168,7 +168,7 @@ main{
     }
 
     main{
-        margin: 2em 1em;
+        margin: 2em 0;
     }
 
     .search{
@@ -176,20 +176,20 @@ main{
     }
 
     .search-input{
-        width: 20em;
+        width: 18em;
     }
     
     .search-button{
-        width: 7.5em;
+        width: 7em;
     }
 
     .content{
         grid-template: repeat(1, 1fr) / repeat(2, 1fr);
-        gap: 15px;
+        gap: 10px;
     }
 
     .content-card{
-        width: 12.5em;        
+        width: 11.5em;        
     }
 
     .text{
