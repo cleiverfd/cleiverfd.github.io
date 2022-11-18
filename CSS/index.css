@@ -53,6 +53,7 @@ body{
 
 .navbar-login:hover{
     background-color: #317ac7;
+    transform: scale(1.05);
 }
 
 .container{
